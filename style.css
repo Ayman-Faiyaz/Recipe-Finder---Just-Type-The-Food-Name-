@@ -148,6 +148,10 @@ button {
   flex-wrap: wrap;
   justify-content: space-around;
   color: var(--text-color);
+  max-width: 90%;
+  gap: 50px;
+  margin-top: 40px;
+  border-radius: 2em;
 }
 
 #recipeResults a {
@@ -156,6 +160,7 @@ button {
 }
 
 .recipe-box {
+  flex-basis: 30%;
   max-width: 300px;
   overflow: hidden;
   margin: 10px;
@@ -188,4 +193,21 @@ button {
   color: white;
   cursor: pointer;
   padding-bottom: 18em;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 1em;
+  color: var(--text-color);
+}
+
+.attribution a {
+  text-decoration: none;
+  color: var(--main-color);
+  transition: 0.4s ease-in-out;
+}
+
+.attribution a:hover {
+  font-size: 2em;
+  color: var(--main-color);
 }
